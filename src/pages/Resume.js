@@ -22,7 +22,7 @@ function Resume() {
         <div className="w-[80%] font-thin max-lg:mt-6">
           <div className="flex justify-between max-lg:flex-col">
             <h1 className="max-lg:mb-2">Web Developer (Remote) </h1>
-            <p className="text-sm max-lg:text-xs">Sept-23 to Present</p>
+            <p className="text-sm max-lg:text-xs">Nov-23 to Dec-23</p>
           </div>
           <div className="text-xs leading-8">
             <h1 className="text-blue-500  pt-1">Oasis Infobyte/Internship</h1>
