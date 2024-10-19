@@ -25,7 +25,7 @@ function Hero() {
           captivating.
         </p>
         <a
-          href="https://drive.google.com/u/0/uc?id=1LfojLT0NkUQkfKyjFrrH9t4htDnZtEcK&export=download"
+          href="https://drive.google.com/file/d/1QSQYRETudWXHZ10luOCiRxLGReShnvDj/view?usp=sharing"
           download=""
         >
           <button className="mt-20  text-xs font-base bg-neutral-900 text-white rounded-md p-2 pl-6 pr-6 max-lg:mt-6 hover:scale-110 duration-300">

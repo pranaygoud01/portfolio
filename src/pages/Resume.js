@@ -6,7 +6,7 @@ function Resume() {
       <div className="flex justify-between mb-10">
         <h1 className="font-extrabold text-xl text-neutral-600">RESUME</h1>
         <a
-          href="https://drive.google.com/u/0/uc?id=1LfojLT0NkUQkfKyjFrrH9t4htDnZtEcK&export=download"
+          href="https://drive.google.com/file/d/1QSQYRETudWXHZ10luOCiRxLGReShnvDj/view?usp=sharing"
           download=""
         >
           {" "}
