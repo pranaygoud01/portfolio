@@ -176,7 +176,7 @@ function Hero() {
             </div>
             <div className="font-thin mt-6 text-xs grid grid-cols-2 rounded-b-md ">
               <a
-                href="https://github.com/pranaygoud01/blog"
+                href="https://github.com/pranaygoud01/NewsAPI"
                 target="blank"
                 className="flex justify-center items-center pt-4 pb-4 border-t-2 border-r-2 "
               >
