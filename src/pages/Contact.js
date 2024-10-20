@@ -9,23 +9,22 @@ function Contact() {
         <h1 className="text-9xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-pink-500 font-extrabold max-lg:text-5xl">
           LET'S
           <br />
-          WORK
+          CONNECT
           <br />
-          TOGETHER
         </h1>
       </div>
       <div className="flex justify-between mt-20 max-lg:flex-col max-lg:gap-3 ">
         <div className="flex gap-2">
           <IoIosCall className="text-xl" />
-          <p className=" text-xs">+91 8919262896</p>
+          <p className="text-sm font-bold">+91 8919262896</p>
         </div>
         <div className="flex gap-2">
           <BiLogoGmail className="text-xl" />
-          <p className=" text-xs">pranaygoudpalle123@gmail.com</p>
+          <p className=" text-sm font-bold">pranaygoudpalle123@gmail.com</p>
         </div>
         <div className="flex gap-2">
           <AiFillGithub className="text-xl" />
-          <p className=" text-xs">@pranaygoud01</p>
+          <p className=" text-sm font-bold">@pranaygoud01</p>
         </div>
       </div>
     </div>

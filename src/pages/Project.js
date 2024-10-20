@@ -9,7 +9,7 @@ import { AiOutlineLink } from "react-icons/ai";
 function Project() {
   return (
     <div>
-      <div className=" m-20 p-12 pb-32 max-lg:p-5  max-lg:m-2">
+      <div className=" m-20 mt-10 p-12 pb-32 max-lg:p-5  max-lg:m-2">
         <h1 className=" mb-10 text-neutral-600 text-sm">FEATURED PROJECTS</h1>
         <div className="grid grid-cols-3 gap-10 font-thin max-lg:grid-cols-1">
           <div className=" hover:scale-110 duration-300 font-thin cursor-pointer border-2 rounded-md shadow-xl">

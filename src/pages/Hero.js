@@ -8,7 +8,7 @@ import { AiOutlineLink } from "react-icons/ai";
 function Hero() {
   return (
     <div>
-      <div className="m-20 p-12 max-lg:m-2  max-lg:p-6     ">
+      <div className="m-20 p-12 max-lg:m-2  max-lg:mt-16  max-lg:mb-10 max-lg:p-6 ">
         <p className=" text-sm font-normal mb-2">Hey,I'm</p>
         <h1 className=" max-lg:text-7xl font-extrabold text-transparent text-9xl bg-clip-text bg-gradient-to-r from-pink-600 to-indigo-500">
           Pranay
@@ -33,7 +33,7 @@ function Hero() {
           </button>
         </a>
       </div>
-      <div className=" m-20 p-12 pb-32 border-b-[1px] max-lg:p-5 border-neutral-400 max-lg:m-2">
+      <div className=" m-20  p-12 pb-32 border-b-[1px] max-lg:p-5 border-neutral-400 max-lg:m-2">
         <h1 className=" mb-10 text-neutral-600 text-sm">FEATURED PROJECTS</h1>
         <div className="grid grid-cols-3 gap-10 font-thin max-lg:grid-cols-1">
           <div className=" hover:scale-110 duration-300 font-thin cursor-pointer border-2 rounded-md shadow-xl">
@@ -258,7 +258,7 @@ function Hero() {
         <div className="w-[20%]  max-lg:mt-9">
           <h1 className="text-neutral-600">EXPERIENCE</h1>
         </div>
-        <div className="w-[80%] font-thin max-lg:mt-6">
+        <div className="w-[80%] font-thin max-lg:mt-6 max-lg:[100%]">
           <div className="flex justify-between max-lg:flex-col">
             <h1 className="max-lg:mb-2">Web Developer (Remote) </h1>
             <p className="text-sm max-lg:text-xs">Nov-23 to Dec-23</p>
@@ -277,7 +277,7 @@ function Hero() {
         <div className="w-[20%]">
           <h1 className="text-neutral-600">EDUCATION</h1>
         </div>
-        <div className="w-[80%] font-thin">
+        <div className="w-[80%] max-lg:w-[100%] font-thin">
           <div>
             <div className="flex justify-between  max-lg:flex-col">
               <h1 className="font-normal max-lg:mt-8 max-lg:text-sm">

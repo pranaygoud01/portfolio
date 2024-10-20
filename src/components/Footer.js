@@ -10,10 +10,10 @@ function Footer() {
     <div className="m-24 p-12 border-t-[1px] border-neutral-400 flex justify-between max-lg:m-2 ">
       <div>
         <h1 className="font-semibold text-sm max-lg:text-[12px]">
-          Created by Pranay
+          Developed by Pranay
         </h1>
         <p className="text-xs font-thin max-lg:text-[8px]">
-          Using React and Tailwind CSS
+          copyright&copy;2024
         </p>
       </div>
       <div className="flex w-2/12 justify-between text-xl  max-lg:w-6/12">

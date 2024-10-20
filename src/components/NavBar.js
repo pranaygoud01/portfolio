@@ -9,6 +9,11 @@ function NavBar() {
       path: "/projects",
     },
     {
+      id: "certificates",
+      name: "Certifications",
+      path: "/certificates",
+    },
+    {
       id: "resume",
       name: "Resume",
       path: "/resume",
@@ -32,7 +37,7 @@ function NavBar() {
             <Link
               key={menu.id}
               to={menu.path}
-              className="p-2 cursor-pointer hover:border-b-[1px] border-black duration-200 "
+              className="p-2 cursor-pointer hover:bg-gray-50 hover:scale-110 rounded-lg border-black duration-200 "
             >
               {menu.name}
             </Link>
