@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume() {
   return (
-    <div className="m-20 p-12 pt-6 max-lg:m-2 ">
+    <div className="m-20 p-12 pt-6 max-lg:p-5 max-lg:m-2 ">
       <div className="flex justify-between mb-10">
         <h1 className="font-extrabold text-xl text-neutral-600">RESUME</h1>
         <a
@@ -38,7 +38,7 @@ function Resume() {
         <div className="w-[20%]">
           <h1 className="text-neutral-600">EDUCATION</h1>
         </div>
-        <div className="w-[80%] font-thin">
+        <div className="w-[80%] font-thin max-lg:w-[100%]">
           <div>
             <div className="flex justify-between  max-lg:flex-col">
               <h1 className="font-normal max-lg:mt-8 max-lg:text-sm">

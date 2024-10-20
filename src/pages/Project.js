@@ -9,7 +9,7 @@ import { AiOutlineLink } from "react-icons/ai";
 function Project() {
   return (
     <div>
-      <div className=" m-20 p-12 pb-32   max-lg:m-2">
+      <div className=" m-20 p-12 pb-32 max-lg:p-5  max-lg:m-2">
         <h1 className=" mb-10 text-neutral-600 text-sm">FEATURED PROJECTS</h1>
         <div className="grid grid-cols-3 gap-10 font-thin max-lg:grid-cols-1">
           <div className=" hover:scale-110 duration-300 font-thin cursor-pointer border-2 rounded-md shadow-xl">
@@ -152,17 +152,21 @@ function Project() {
             </div>
             <div className="font-thin mt-6 text-xs grid grid-cols-2 rounded-b-md ">
               <a
-                href="https://github.com/pranaygoud01/blog"
+                href="https://github.com/pranaygoud01/NewsAPI"
                 target="blank"
                 className="flex justify-center items-center pt-4 pb-4 border-t-2 border-r-2 "
               >
                 <AiFillGithub className="text-lg" />{" "}
                 <button className="ml-2">GitHub</button>
               </a>
-              <div className="flex justify-center items-center pt-4 pb-4 border-t-2">
+              <a
+                className="flex justify-center items-center pt-4 pb-4 border-t-2"
+                href="https://newsapi-app.netlify.app/"
+                target="blank"
+              >
                 <AiOutlineLink className="text-lg" />{" "}
                 <button className="ml-2">Live Demo</button>
-              </div>
+              </a>
             </div>
           </div>
           <div className=" hover:scale-110 duration-300 font-thin cursor-pointer border-2 rounded-md shadow-xl">
