@@ -5,10 +5,13 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineLink } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 function Hero() {
   return (
     <div>
-      <div className="m-20 p-12 max-lg:m-2  max-lg:mt-16  max-lg:mb-10 max-lg:p-6 ">
+      <div className="m-20 p-12 max-lg:m-2  max-lg:mt-16 h-[60vh]  max-lg:mb-10 max-lg:p-6 ">
         <p className=" text-sm font-normal mb-2">Hey,I'm</p>
         <h1 className=" max-lg:text-7xl font-extrabold text-transparent text-9xl bg-clip-text bg-gradient-to-r from-pink-600 to-indigo-500">
           Pranay
@@ -32,6 +35,29 @@ function Hero() {
             Download CV
           </button>
         </a>
+        <div className="mt-16 flex w-[130px] justify-between">
+          <a
+            href="https://github.com/pranaygoud01"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaGithub className="text-3xl" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/pranaygoud1229/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin className="text-3xl" />
+          </a>
+          <a
+            href="mailto:pranaygoudpalle123@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiGmail className="text-3xl" />
+          </a>
+        </div>
       </div>
       <div className=" m-20  p-12 pb-32 border-b-[1px] max-lg:p-5 border-neutral-400 max-lg:m-2">
         <h1 className=" mb-10 text-neutral-600 text-sm">FEATURED PROJECTS</h1>
@@ -258,7 +284,7 @@ function Hero() {
         <div className="w-[20%]  max-lg:mt-9">
           <h1 className="text-neutral-600">EXPERIENCE</h1>
         </div>
-        <div className="w-[80%] font-thin max-lg:mt-6 max-lg:[100%]">
+        <div className="w-[80%] font-thin max-lg:mt-6">
           <div className="flex justify-between max-lg:flex-col">
             <h1 className="max-lg:mb-2">Web Developer (Remote) </h1>
             <p className="text-sm max-lg:text-xs">Nov-23 to Dec-23</p>
