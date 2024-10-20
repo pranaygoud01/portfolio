@@ -8,21 +8,21 @@ import { AiOutlineLink } from "react-icons/ai";
 function Hero() {
   return (
     <div>
-      <div className="m-20 p-12 max-lg:m-2 max-lg:p-10   ">
+      <div className="m-20 p-12 max-lg:m-2  max-lg:p-6     ">
         <p className=" text-sm font-normal mb-2">Hey,I'm</p>
         <h1 className=" max-lg:text-7xl font-extrabold text-transparent text-9xl bg-clip-text bg-gradient-to-r from-pink-600 to-indigo-500">
           Pranay
         </h1>
-        <p className="mt-5 w-11/12 text-sm text-justify leading-5 max-lg:leading-6 max-lg:text-left max-lg:text-xs">
-          I'm a Computer Science Student at Sri indu College of Engineering and
-          Technology.I am a highly motivated and self-driven individual with a
-          strong work ethic. I am also a team player and I am able to work
-          effectively with others. With a passion for innovation and a drive for
-          continuous learning. A passionate Full Stack Web Developer with an
-          unwavering commitment to hard work. Their expertise in both front-end
-          and back-end development is complemented by a unique flair for design,
-          creating websites that are not only functional but visually
-          captivating.
+        <p className="mt-5 w-11/12 max-lg:w-full text-sm text-justify leading-5 max-lg:leading-6 max-lg:text-left max-lg:text-xs">
+          An aspiring software engineer pursuing a BTech in Information
+          Technology, set to graduate in May 2025. With a strong foundation in
+          programming languages like Java,Reactjs,Python, and JavaScript, I
+          specialize in full stack development using React.js and have hands-on
+          experience with web technologies, backend systems, and database
+          management. My journey includes impactful projects such as a news app
+          using remote APIs and a Placement Management System with Java and
+          MySQL. Passionate about learning and problem-solving, I continuously
+          seek opportunities to innovate and excel in the tech world.
         </p>
         <a
           href="https://drive.google.com/file/d/1QSQYRETudWXHZ10luOCiRxLGReShnvDj/view?usp=sharing"
@@ -183,10 +183,14 @@ function Hero() {
                 <AiFillGithub className="text-lg" />{" "}
                 <button className="ml-2">GitHub</button>
               </a>
-              <div className="flex justify-center items-center pt-4 pb-4 border-t-2">
+              <a
+                className="flex justify-center items-center pt-4 pb-4 border-t-2"
+                href="https://newsapi-app.netlify.app/"
+                target="blank"
+              >
                 <AiOutlineLink className="text-lg" />{" "}
                 <button className="ml-2">Live Demo</button>
-              </div>
+              </a>
             </div>
           </div>
           <div className=" hover:scale-110 duration-300 font-thin cursor-pointer border-2 rounded-md shadow-xl">
