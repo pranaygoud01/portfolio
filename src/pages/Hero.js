@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 function Hero() {
   return (
     <div>
-      <div className="m-20 p-12 max-lg:m-2  max-lg:mt-16 h-[60vh]  max-lg:mb-10 max-lg:p-6 ">
+      <div className="m-20 p-12 max-lg:m-2  max-lg:mt-16 h-[60vh] max-lg:h-[100vh]  max-lg:mb-10 max-lg:p-6 ">
         <p className=" text-sm font-normal mb-2">Hey,I'm</p>
         <h1 className=" max-lg:text-7xl font-extrabold text-transparent text-9xl bg-clip-text bg-gradient-to-r from-pink-600 to-indigo-500">
           Pranay
